@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container .container__inner {
+  width: 80%;
+}
+.container .container__inner .container__title {
+  color: gray;
+  padding-bottom: 35px;
+  text-align: center;
+}
+.container .container__inner .container__calc-form {
+  display: flex;
+  grid-column: 2;
+  align-items: center;
+  justify-content: center;
+}
+.container .container__inner .container__calc-form .calc-form__input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #dedede;
+  font-size: 18px;
+  color: gray;
+}
+.container .container__inner .container__calc-form .calc-form__input:focus {
+  outline: none;
+}
+.container .container__inner .container__result {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*# sourceMappingURL=/calculator.77de5100.css.map */
